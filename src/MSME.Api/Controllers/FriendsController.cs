@@ -47,7 +47,7 @@ public class FriendsController : ControllerBase
 
     try
     {
-      await _serviceManager.InsertFriend(friend);
+      b = await _serviceManager.InsertFriend(friend);
     }
     catch( Exception exception )
     {
@@ -59,6 +59,6 @@ public class FriendsController : ControllerBase
         return NotFound();
     }
 
-    return Ok( $"Friend was added {_jsonHandler.Serialize(friend)}");
+    return Ok( $"Friend {friend.FirstName} was added");
   }
 }

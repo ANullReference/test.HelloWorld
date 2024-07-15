@@ -1,21 +1,21 @@
 <div class="container">
-<table class="table" *ngIf="friends && friends.length > 0" >
-  <thead>
-    <tr>
-      <th scope="col">Id#</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Image URL</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let friend of friends" >
-      <td>{{ friend.id }}</td>
-      <td>{{ friend.firstName }}</td>
-      <td>{{ friend.lastName }}</td>
-      <td>{{ friend.imageUrl }}</td>
-    </tr>
-  </tbody>
-</table>
-<p *ngIf="!friends || friends.length == 0">No friends found :(</p>
+  <table class="table" *ngIf="friends && friends.length > 0" >
+    <thead>
+      <tr>
+        <th scope="col">Id#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Image URL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let friend of friends" >
+        <td>{{ friend.id }}</td>
+        <td>{{ friend.firstName }}</td>
+        <td>{{ friend.lastName }}</td>
+        <td><img src='{{ friend.imageUrl }}' alt="profile pic" width="100" height="100"></td>
+      </tr>
+    </tbody>
+  </table>
+  <p *ngIf="!friends || friends.length == 0">No friends found :(</p>
 </div>

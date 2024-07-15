@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Friend } from '../../models/friend.model';
 import { NgFor, NgIf } from '@angular/common';
+import { Router } from '@angular/router';
+import { FriendsService } from '../../services/friends.service';
 
 @Component({
   selector: 'app-friends',
@@ -12,12 +14,25 @@ import { NgFor, NgIf } from '@angular/common';
 
 export class FriendsComponent {
 
-  friends : Friend[] =
-  [
-    { id : "a", firstName : "john", lastName: "doe", imageUrl : ""  },
-    { id : "b", firstName : "jane", lastName: "doe", imageUrl : ""  },
-    { id : "c", firstName : "mark", lastName: "tux", imageUrl : ""  },
-    { id : "d", firstName : "tyson", lastName: "fury", imageUrl : "" },
-    { id : "e", firstName : "Hinata", lastName: "Shouyu", imageUrl : "" }
-  ]
+  friends : Friend[] ;
+
+  constructor (private friendsService : FriendsService, private router : Router)
+  {
+    this.friends = [];
+  }
+
+  ngOnInit() : void
+  {
+    this.friendsService.getAllFriends()
+    .subscribe(
+      {
+        next: (fetchedFriends : Friend[]) => { this.friends = fetchedFriends }
+      }
+     ),
+     {
+     error: (response: any) => {
+      console.log (response);
+     }
+    }
+  }
 }
