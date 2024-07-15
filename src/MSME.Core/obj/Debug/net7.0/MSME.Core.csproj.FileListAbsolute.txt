@@ -1,0 +1,12 @@
+G:\code\Angular\test.HelloWorld\src\MSME.Core\bin\Debug\net7.0\MSME.Core.deps.json
+g:\code\Angular\test.HelloWorld\src\MSME.Core\bin\Debug\net7.0\MSME.Core.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Core\bin\Debug\net7.0\MSME.Core.pdb
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.csproj.AssemblyReference.cache
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.GeneratedMSBuildEditorConfig.editorconfig
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.AssemblyInfoInputs.cache
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.AssemblyInfo.cs
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.csproj.CoreCompileInputs.cache
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\refint\MSME.Core.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\MSME.Core.pdb
+G:\code\Angular\test.HelloWorld\src\MSME.Core\obj\Debug\net7.0\ref\MSME.Core.dll

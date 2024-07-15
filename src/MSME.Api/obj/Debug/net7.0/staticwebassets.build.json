@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JGBbjsiFwa2d3fdhZB223BRvffYGWZHnPdEOXu6LRy0=",
+  "Source": "MSME.Api",
+  "BasePath": "_content/MSME.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

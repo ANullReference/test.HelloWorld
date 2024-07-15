@@ -1,0 +1,17 @@
+G:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Infrastructure.deps.json
+G:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Infrastructure.runtimeconfig.json
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Infrastructure.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Infrastructure.pdb
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Core.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\bin\Debug\net7.0\MSME.Core.pdb
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.csproj.AssemblyReference.cache
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.AssemblyInfoInputs.cache
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.AssemblyInfo.cs
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.csproj.CoreCompileInputs.cache
+G:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.csproj.CopyComplete
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\refint\MSME.Infrastructure.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.pdb
+G:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\MSME.Infrastructure.genruntimeconfig.cache
+G:\code\Angular\test.HelloWorld\src\MSME.Infrastructure\obj\Debug\net7.0\ref\MSME.Infrastructure.dll
