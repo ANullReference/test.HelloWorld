@@ -50,12 +50,6 @@ g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win-arm\n
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\MSME.Core.dll
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\MSME.Infrastructure.dll
 g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\MSME.Core.pdb
@@ -81,3 +75,8 @@ g:\code\Angular\test.HelloWorld\src\MSME.Api\obj\Debug\net7.0\refint\MSME.Api.dl
 g:\code\Angular\test.HelloWorld\src\MSME.Api\obj\Debug\net7.0\MSME.Api.pdb
 g:\code\Angular\test.HelloWorld\src\MSME.Api\obj\Debug\net7.0\MSME.Api.genruntimeconfig.cache
 g:\code\Angular\test.HelloWorld\src\MSME.Api\obj\Debug\net7.0\ref\MSME.Api.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Runtime.Caching.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+g:\code\Angular\test.HelloWorld\src\MSME.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll

@@ -1,19 +1,15 @@
 import { Routes } from '@angular/router';
-import { FriendsComponent } from './components/friends/friends.component'
-import { AddFriendComponent } from './components/add-friend/add-friend.component'
+import { PokemonComponent } from './components/pokemon/pokemon.component'
 
 
 export const routes: Routes = [
   {
     path: '',
-    component: FriendsComponent
+    component: PokemonComponent
   },
+
   {
-    path: 'friends',
-    component: FriendsComponent
-  },
-  {
-    path: 'friends/add',
-    component: AddFriendComponent
+    path: 'pokemon',
+    component: PokemonComponent
   }
 ];

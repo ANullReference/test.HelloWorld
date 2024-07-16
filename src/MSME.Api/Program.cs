@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using MSME.Core;
 using MSME.Core.Abstractions;
 using MSME.Core.Domain;
@@ -23,7 +22,16 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IServiceManager,ServiceManager>();
 builder.Services.AddTransient<IDataAccess,DataAccess>();
 builder.Services.AddTransient<IJsonHandler,JsonHandler>();
-builder.Services.Configure<AppSettings>(Configuration.GetSection("Settings"));
+builder.Services.Configure<AppSettings>(Configuration);
+builder.Services.AddTransient<IPokemonDataAccess,PokemonDataAccess>();
+builder.Services.AddSingleton<MSME.Core.Abstractions.ILogger, Logger>();
+builder.Services.AddSingleton<ICacheManager, CacheManager>();
+builder.Services.AddTransient<IPokemonRuleEngine,PokemonRuleEngine>();
+
+HttpClient httpClient = new HttpClient();
+
+builder.Services.AddSingleton(httpClient);
+
 
 builder.Services.AddDbContext<MSMEDataContextContext>();
 
@@ -45,3 +53,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+

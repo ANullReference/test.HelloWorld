@@ -5,26 +5,85 @@ namespace MSME.Infrastructure;
 
 public static class Extensions
 {
-  public static Friends ToFriend(this Person person )
+  public static PokemonDetail ToPokemonDetail(this PokemonDetailApiDto pokemonDetailApiDto )
   {
-    if (person is null)
+    if (pokemonDetailApiDto == null)
+    {
       return null;
+    }
 
+    PokemonDetail pokemonDetail = new PokemonDetail();
+    pokemonDetail.Name = pokemonDetailApiDto.Name;
+    pokemonDetail.Type = pokemonDetailApiDto.Types[0].Type.Name; //per requirement....grab first
+    pokemonDetail.Id = pokemonDetailApiDto.Id;
+    pokemonDetail.Base_Experience = pokemonDetailApiDto.Base_Experience;
 
-    return new Friends() {
-        FirstName = person.first_name
-      , LastName = person.last_name
-      , Id = person.person_id
-      , ImageUrl = person.image_url
-    };
-
-
+    return pokemonDetail;
   }
 
-  public static Person ToPerson(this Friends friend )
+  public static IEnumerable<PokemonDetail>? Sort(this IEnumerable<PokemonDetail> pokemonDetails, string sortBy, string sortDirection)
   {
-    return new Person() {
-      first_name = friend.FirstName, last_name = friend.LastName, person_id = friend.Id, image_url = friend.ImageUrl
-    };
+    if (pokemonDetails == null || !pokemonDetails.Any())
+    {
+      return null;
+    }
+
+    if ("name".Equals(sortBy) )
+    {
+      if (sortDirection.Equals("desc"))
+      {
+        pokemonDetails = pokemonDetails.OrderByDescending(o => o.Name).ToList();
+      }
+      else
+      {
+        pokemonDetails = pokemonDetails.OrderBy(o => o.Name).ToList();
+      }
+    }
+    else if ("wins".Equals(sortBy) )
+    {
+      if (sortDirection.Equals("desc"))
+      {
+        pokemonDetails = pokemonDetails.OrderByDescending(o => o.Win).ToList();
+      }
+      else
+      {
+        pokemonDetails = pokemonDetails.OrderBy(o => o.Win).ToList();
+      }
+    }
+    else if ("losses".Equals(sortBy) )
+    {
+      if (sortDirection.Equals("desc"))
+      {
+        pokemonDetails = pokemonDetails.OrderByDescending(o => o.Losses).ToList();
+      }
+      else
+      {
+        pokemonDetails = pokemonDetails.OrderBy(o => o.Losses).ToList();
+      }
+    }
+    else if ("id".Equals(sortBy) )
+    {
+      if (sortDirection.Equals("desc"))
+      {
+        pokemonDetails = pokemonDetails.OrderByDescending(o => o.Id).ToList();
+      }
+      else
+      {
+        pokemonDetails = pokemonDetails.OrderBy(o => o.Id).ToList();
+      }
+    }
+    else if ("ties".Equals(sortBy) )
+    {
+      if (sortDirection.Equals("desc"))
+      {
+        pokemonDetails = pokemonDetails.OrderByDescending(o => o.Ties).ToList();
+      }
+      else
+      {
+        pokemonDetails = pokemonDetails.OrderBy(o => o.Ties).ToList();
+      }
+    }
+
+    return pokemonDetails;
   }
 }

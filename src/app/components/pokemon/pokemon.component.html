@@ -1,0 +1,38 @@
+<div class="container">
+
+  <form #f="ngForm" (ngSubmit)="getAllPokemons()" name="frmSort" id="frmSort">
+    <input type="text" class="form-control" id="sortBy"  placeholder="sort by (name, losses, ties, name, id)" name="sortBy"  [(ngModel)]="this.sortBy" >
+    <input type="text" class="form-control" id="sortDirection"  placeholder="sort direction (asc, desc)" name="sortDirection"  [(ngModel)]="this.sortDirection" >
+    <input type="submit" name="btnSubmit" id="btnSubmit" class="btn btn-primary" value="Submit" />
+
+    <p *ngIf="errorMessage != ''">
+      <input type="text" class="alert-danger" id="lblMessage" name="lblMessage" [(ngModel)]="this.errorMessage" />
+    </p>
+  </form>
+
+  <table class="table" *ngIf="pokemons && pokemons.length > 0" >
+    <thead>
+      <tr>
+        <th scope="col">Id#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Wins</th>
+        <th scope="col">Ties</th>
+        <th scope="col">Loss</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pokemon of pokemons" >
+        <td>{{ pokemon.id }}</td>
+        <td>{{ pokemon.name }}</td>
+        <td>{{ pokemon.type }}</td>
+        <td>{{ pokemon.win }}</td>
+        <td>{{ pokemon.ties }}</td>
+        <td>{{ pokemon.losses }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <p *ngIf="!pokemons || pokemons.length == 0">No pokemon found :(</p> -->
+
+
+</div>
