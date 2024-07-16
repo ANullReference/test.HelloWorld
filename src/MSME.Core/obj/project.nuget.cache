@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wkkDdaOxNSa8Q2WE02IMmyJth0HfdT0aRaHwEmd3dbL5OplGihjIWXOu0aEjtjs3UBnvEyU36GxnxHMVpZMpVw==",
+  "dgSpecHash": "0TbCYghXL+SbzthWf1vTOa8AdOhj+d7OgyZTp0wOgVl22pOawWlGDy6WuA/8IPFPNljKNz9x0fVgV0CXAUGOFA==",
   "success": true,
-  "projectFilePath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
+  "projectFilePath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
