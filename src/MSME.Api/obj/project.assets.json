@@ -4138,11 +4138,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\MSME.Api.csproj",
+      "projectUniqueName": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\MSME.Api.csproj",
       "projectName": "MSME.Api",
-      "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\MSME.Api.csproj",
+      "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\MSME.Api.csproj",
       "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-      "outputPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\obj\\",
+      "outputPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4157,11 +4157,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
-              "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
+            "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
+              "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
             },
-            "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {
-              "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj"
+            "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {
+              "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj"
             }
           }
         }

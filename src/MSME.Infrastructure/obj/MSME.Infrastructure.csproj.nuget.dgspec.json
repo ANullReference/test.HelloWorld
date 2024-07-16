@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {}
+    "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {}
   },
   "projects": {
-    "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
+    "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
+        "projectUniqueName": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
         "projectName": "MSME.Core",
-        "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
+        "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj",
         "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-        "outputPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\obj\\",
+        "outputPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {
+    "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
+        "projectUniqueName": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
         "projectName": "MSME.Infrastructure",
-        "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
+        "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Archille\\.nuget\\packages\\",
-        "outputPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\obj\\",
+        "outputPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Archille\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
-                "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
+              "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
+                "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
               }
             }
           }
