@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rqEH9ktKFJOG4iQK0Y0nemVqFPxIK1zhTVUH5v4R358ySxK5z+yi6EtuEMEGtW37d1MkhSZjjdbJ5LQfdsZbiw==",
+  "dgSpecHash": "/76lcgIoBDFZvWdNCEvRi7hvvyeq88xqHJeK84JoBy6N7/JzNz5d3lIfuufiqM09uOPcsCtTLxSaaw9MZlQSHg==",
   "success": true,
-  "projectFilePath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
+  "projectFilePath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Infrastructure\\MSME.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Archille\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Archille\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

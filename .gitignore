@@ -406,3 +406,13 @@ src/MSME.Api/obj/Debug/net7.0/MSME.Api.dll
 src/MSME.Api/obj/Debug/net7.0/MSME.Api.pdb
 src/MSME.Api/obj/Debug/net7.0/ref/MSME.Api.dll
 src/MSME.Api/obj/Debug/net7.0/refint/MSME.Api.dll
+src/MSME.Api/obj/MSME.Api.csproj.nuget.dgspec.json
+src/MSME.Api/obj/project.assets.json
+src/MSME.Api/obj/project.nuget.cache
+src/MSME.Api/obj/Debug/net7.0/MSME.Api.csproj.AssemblyReference.cache
+src/MSME.Infrastructure/obj/Debug/net7.0/MSME.Infrastructure.assets.cache
+src/MSME.Infrastructure/obj/Debug/net7.0/MSME.Infrastructure.csproj.AssemblyReference.cache
+src/MSME.Infrastructure/obj/Debug/net7.0/MSME.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+src/MSME.Infrastructure/obj/Debug/net7.0/MSME.Infrastructure.genruntimeconfig.cache
+src/MSME.Core/obj/MSME.Core.csproj.nuget.dgspec.json
+src/MSME.Core/obj/project.nuget.cache
