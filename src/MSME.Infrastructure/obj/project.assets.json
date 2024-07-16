@@ -3686,8 +3686,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
-              "projectPath": "G:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
+            "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj": {
+              "projectPath": "g:\\code\\Angular\\test.HelloWorld\\src\\MSME.Core\\MSME.Core.csproj"
             }
           }
         }
