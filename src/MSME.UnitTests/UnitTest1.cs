@@ -46,7 +46,7 @@ public class UnitTest1
 
       _ = await SystemUnderTest.Fight(left, right);
 
-      Assert.True(right.Losses > 0);
+      Assert.True(left.Losses > 0);
       Assert.True(right.Win > 0);
     }
 
