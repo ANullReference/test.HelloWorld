@@ -1,5 +1,4 @@
 using MSME.Core.Domain;
-using MSME.Infrastructure.Data.POCO;
 
 namespace MSME.Infrastructure;
 

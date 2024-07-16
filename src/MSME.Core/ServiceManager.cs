@@ -5,28 +5,15 @@ namespace MSME.Core;
 
 public class ServiceManager : IServiceManager
 {
-  private IDataAccess _dataAccess;
-  private IPokemonDataAccess _pokemonDataAccess;
+    private IPokemonDataAccess _pokemonDataAccess;
 
   private IPokemonRuleEngine _ruleEngine;
 
-  public ServiceManager(IDataAccess dataAccess, IPokemonDataAccess pokemonDataAccess, IPokemonRuleEngine ruleEngine)
+  public ServiceManager(IPokemonDataAccess pokemonDataAccess, IPokemonRuleEngine ruleEngine)
   {
-    _dataAccess = dataAccess;
     _pokemonDataAccess = pokemonDataAccess;
     _ruleEngine = ruleEngine;
   }
-
-  public async Task<List<Friends>> GetFriends()
-  {
-    return await _dataAccess.GetFriends();
-  }
-
-  public async Task<bool> InsertFriend(Friends friend)
-  {
-    return await _dataAccess.InsertFriend(friend);
-  }
-
 
 
   public async Task<IEnumerable<PokemonDetail>> FetchAllMyPokemon(int maxPokemonCount = 8)//number should come from config ultimately.

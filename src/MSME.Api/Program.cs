@@ -2,7 +2,6 @@ using MSME.Core;
 using MSME.Core.Abstractions;
 using MSME.Core.Domain;
 using MSME.Infrastructure;
-using MSME.Infrastructure.Data;
 
 
 var Configuration = new ConfigurationBuilder()
@@ -20,7 +19,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IServiceManager,ServiceManager>();
-builder.Services.AddTransient<IDataAccess,DataAccess>();
 builder.Services.AddTransient<IJsonHandler,JsonHandler>();
 builder.Services.Configure<AppSettings>(Configuration);
 builder.Services.AddTransient<IPokemonDataAccess,PokemonDataAccess>();
@@ -31,9 +29,6 @@ builder.Services.AddTransient<IPokemonRuleEngine,PokemonRuleEngine>();
 HttpClient httpClient = new HttpClient();
 
 builder.Services.AddSingleton(httpClient);
-
-
-builder.Services.AddDbContext<MSMEDataContextContext>();
 
 var app = builder.Build();
 
